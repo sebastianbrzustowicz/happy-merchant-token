@@ -13,8 +13,8 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-contract StatToken is IERC20 {
-    string public name = "StatToken";
+contract StatERC20Token is IERC20 {
+    string public name = "StatERC20Token";
     string public symbol = "STAT";
     uint8 public decimals = 9;
     uint256 private _totalSupply;
